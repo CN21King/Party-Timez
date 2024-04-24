@@ -1,0 +1,188 @@
+
+:root{
+    --color1: purple;
+    --color2: rgb(0,128,11);
+    --color3: black;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    background-color: black;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    padding: 10px;
+    background-color: rgb(0, 128, 11);
+    border: 0px;
+    border-radius: 50px;
+}
+.logo{
+    padding-left: 6.4in;
+}
+img{
+    width: 1.5in;
+    height: 1.5in;
+}
+.space{
+    height: 0.25in;
+}
+.box{
+    padding: 95px;
+}
+.main{
+      background-image: url(images/pexels-wendy-wei-1190298.jpg); 
+      background-size: cover;
+      background-repeat: no-repeat; 
+      padding: 5px; 
+}
+main h1{
+  padding-left: 5in;
+}
+main p{
+    font-size: larger;
+    padding: 10px;
+    color: black;
+    background-color: purple;
+    border: 10px;
+    border-radius: 25px;
+    border-color: aqua;
+}
+video{
+    padding-left: 20%;
+}
+
+.footer{
+    background-color: black;
+}
+footer h2{
+    color: rgb(0, 128, 11);
+}
+footer p{
+    color: purple;
+}
+.footimg{
+    height: 50px;
+    width: 50px;
+}
+input{
+    border-radius: 15px;
+    display: block;
+
+}
+textarea{
+    border-radius: 5px;
+    display: block;
+    width: 500px;
+}
+label{
+    color: var(--color2);
+    display: block;
+    font-size: 50px;
+}
+form h1{
+    color: var(--color2);
+    padding-left: 5.5in;
+    font-size: xx-large;
+    display: block;
+    font-family: 'Saira Extra Condensed';
+}
+.submit{
+    color: var(--color2); 
+    height: 0.5in;
+    width: 2in;
+    font-size: large;
+    background-color:var(--color1);
+}
+div{
+padding-left: 50px;
+}
+button{
+    margin-left: 50%;
+}
+input{
+    width: 500px;
+    height: 25px;
+}
+a>p{
+    text-decoration: none;
+    color: var(--color2);
+    padding-left: 100px;
+    font-size: 25px;
+    
+}
+
+li{
+    display: inline-block;
+    text-decoration: none;
+}
+.main4{
+    background-image: url(images/istockphoto-1408884392-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main2{
+    background-image: url(images/istockphoto-1408884392-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    display: flex;
+    width: 90vw;
+  }
+  
+.panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    -webkit-transition: all 700ms ease-in;
+  }
+  
+  .panel h3 {
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+  }
+  
+  .panel.active {
+    flex: 5;
+  }
+  
+  .panel.active h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      width: 100vw;
+    }
+  
+    .panel:nth-of-type(4),
+    .panel:nth-of-type(5) {
+      display: none;
+    }
+  }
+
+  .main3{
+    background-image: url(images/istockphoto-1408884392-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:6in;
+}
